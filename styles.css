@@ -1,0 +1,220 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.conatiner {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15%;
+  padding-right: 15%;
+  top: 0;
+  background-color: #1f2937;
+  font-style: roboto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+h1 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.nav-main-left h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.nav-main-left p {
+  font-size: 18px;
+  color: #f9faf8;
+  width: 400px;
+}
+.nav-main-right {
+  height: 250px;
+  width: 500px;
+  background-color: grey;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUp-1 {
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid #3882f6;
+  padding: 5 15px;
+  font-size: 18px;
+}
+
+.signUp-1:active {
+  transform: scale(0.95);
+}
+
+/* Content 1 ------------------------------------------- */
+.content-container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 40px 0;
+}
+
+.content-1-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.box-1 img {
+  height: 200px;
+  width: 200px;
+  border-radius: 15px;
+  border: 3px solid blue;
+}
+
+.box-1 p {
+  width: 145px;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Content 2 ------------------------------------------- */
+
+.content-container-2 {
+  background-color: #e5e7eb;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container-2 blockquote {
+  font-style: italic;
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+  max-width: 80%;
+  line-height: 1.5;
+  position: relative;
+}
+
+.content-container-2 blockquote::before {
+  content: "“";
+  font-size: 50px;
+  position: absolute;
+  top: -10px;
+  left: -20px;
+}
+
+.content-container-2 blockquote::after {
+  content: "”";
+  font-size: 50px;
+  position: absolute;
+  bottom: -10px;
+  right: -20px;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 18px;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: auto;
+}
+
+.quote {
+  width: 800px;
+}
+/* Content 3 ------------------------------------------- */
+.content-container-3 {
+  background-color: #fff;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.con-3-box-1 {
+  background-color: #3882f6;
+  margin-top: 100px;
+  height: 140px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.con-3-header {
+  font-weight: 900;
+  font-size: 18px;
+}
+.con-3-right {
+  padding-right: 100px;
+}
+
+.con-3-right button {
+  background-color: #3882f6;
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 5 15px;
+  font-size: 18px;
+  transition: transform 0.1s;
+}
+
+.con-3-left {
+  padding-left: 100px;
+}
+
+.signUp:active {
+  transform: scale(0.95);
+}
+
+/* ALL ------------------------------------------- */
+.content-container-1,
+.content-container-2 {
+  height: 500px;
+  overflow: auto;
+}
